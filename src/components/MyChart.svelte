@@ -275,7 +275,6 @@
 
     g.append("g").call(d3.axisLeft(y));
 
-
     const xAxisLabel = svg
       .append("text")
       .attr("class", "axis-label")
@@ -393,6 +392,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-color: #baf1ff;
   }
 
   #overlay {

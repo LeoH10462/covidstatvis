@@ -1,13 +1,12 @@
 <script>
-  // Write your JS here, or import other files
-</script>
-
-<main>
-  <h1>Svelte template</h1>
-
-  <p>Write your HTML here</p>
-</main>
-
-<style>
-  /* Write your CSS here */
-</style>
+	import MyChart from './MyChart.svelte';
+  </script>
+  
+  <div>
+	<h1>Welcome to My Svelte App</h1>
+	<MyChart />
+  </div>
+  
+  <style>
+	/* Add any necessary CSS styles here */
+  </style>
